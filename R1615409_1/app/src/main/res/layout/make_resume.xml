@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:id="@+id/resumeimage"
+        android:src="@mipmap/ic_launcher_foreground"/>
+    <TextView
+        android:id="@+id/firstresume"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="15dp"
+        android:id="@+id/secondresume"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/thirdresume"/>
+    <TextView
+        android:id="@+id/fourthresume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:textSize="30dp"
+
+        android:layout_marginTop="15dp"
+       />
+    <Button
+        android:id="@+id/gotohomebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:paddingHorizontal="30dp"
+        android:text="@string/goto_home"
+        android:textSize="30dp" />
+
+</LinearLayout>

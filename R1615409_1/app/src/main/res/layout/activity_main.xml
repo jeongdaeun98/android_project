@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:src="@mipmap/ic_launcher_foreground"
+        android:id="@+id/sookmyung"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        android:text="@string/mynumber"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp"
+        android:text="@string/name"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="70dp"
+        android:textSize="30dp"
+        android:text="@string/edu_input"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:id="@+id/edubutton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="70dp"
+        android:textSize="30dp"
+        android:text="@string/select_picture"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:id="@+id/picturebutton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="60dp"
+        android:textSize="30dp"
+        android:text="@string/resume_input"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClick"
+        android:id="@+id/resumebutton"
+        />
+
+
+
+
+</LinearLayout>

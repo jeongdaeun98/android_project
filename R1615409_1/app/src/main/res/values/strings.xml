@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">R1615409_1</string>
+    <string name="edu_input">학력 입력</string>
+    <string name="resume_input">이력서작성</string>
+    <string name="select_picture">사진 선택</string>
+    <string name="goto_home">홈으로 돌아가기</string>
+    <string name="mynumber">학번 1615409</string>
+    <string name="name">이름 정다은</string>
+</resources>
